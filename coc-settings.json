@@ -1,0 +1,57 @@
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true,
+  "prettier.disableSuccessMessage": true,
+  "eslint.autoFixOnSave": true,
+  "diagnostic-languageserver.enable": {
+    "type": "boolean",
+    "default": true,
+    "description": "enable this extension?"
+  },
+  "diagnostic-languageserver.debug": {
+    "type": "boolean",
+    "default": true,
+    "description": "enable debug?"
+  },
+  "diagnostic-languageserver.trace.server": {
+    "type": "string",
+    "default": "off",
+    "enum": ["off", "messages", "verbose"],
+    "description": "Trace level of diagnostic-languageserver"
+  },
+  "diagnostic-languageserver.linters": {
+    "type": "object",
+    "default": {},
+    "description": "linters config same as diagnostic-languageserver's linters config"
+  },
+  "diagnostic-languageserver.filetypes": {
+    "type": "object",
+    "default": {},
+    "description": "filetypes config same as diagnostic-languageserver's filetypes config"
+  },
+  "diagnostic-languageserver.formatters": {
+    "type": "object",
+    "default": {},
+    "description": "formatters config same as diagnostic-languageserver's formatters config"
+  },
+  "diagnostic-languageserver.formatFiletypes": {
+    "type": "object",
+    "default": {},
+    "description": "formatFiletypes config same as diagnostic-languageserver's formatFiletypes config"
+  },
+  "emmet.showExpandedAbbreviation": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.excludeLanguages": ["markdown"]
+}
