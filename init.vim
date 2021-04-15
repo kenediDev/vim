@@ -11,6 +11,7 @@ source $HOME/.config/nvim/commentary/plugin/commentary.vim
 source $HOME/.config/nvim/knd-plugin/language.vim
 source $HOME/.config/nvim/knd-plugin/lps.vim
 source $HOME/.config/nvim/knd-plugin/search.vim
+source $HOME/.config/nvim/knd-plugin/icon.vim
 
 " Icon VIM
 
@@ -21,6 +22,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-airline/vim-airline'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'pineapplegiant/spaceduck'
+Plug 'jaredgorski/spacecamp'
 
 call plug#end()
 
@@ -39,7 +41,9 @@ set termguicolors
 " let g:tokyonight_enable_italic = 1
 
 " colorscheme tokyonight
-colorscheme spaceduck
+" colorscheme spaceduck
+" colorscheme spacecamp
+colorscheme archery
 let g:airline_theme = 'spaceduck'
 
 
