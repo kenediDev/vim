@@ -23,6 +23,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'pineapplegiant/spaceduck'
 Plug 'jaredgorski/spacecamp'
+Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 
@@ -43,8 +44,10 @@ set termguicolors
 " colorscheme tokyonight
 " colorscheme spaceduck
 " colorscheme spacecamp
-colorscheme archery
-let g:airline_theme = 'spaceduck'
+" colorscheme archery
+colorscheme PaperColor
+let g:airline_theme='papercolor'
+" let g:airline_theme = 'spaceduck'
 
 
 if (has("nvim"))
